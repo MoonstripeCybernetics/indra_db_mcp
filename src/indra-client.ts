@@ -115,7 +115,7 @@ async function resolveBinaryPath(configPath?: string): Promise<string> {
   throw new Error(
     "Failed to find or install indra binary. Please install manually:\n" +
     "  cargo install indra_db --features hf-embeddings\n" +
-    "Or download from: https://github.com/moonstripe/indra_db/releases"
+    "Or download from: https://github.com/MoonstripeCybernetics/indra_db/releases"
   );
 }
 
@@ -248,7 +248,7 @@ export class IndraClient {
   /**
    * Serialize all CLI invocations through a promise queue to prevent
    * concurrent process access to the .indra file (cross-process corruption).
-   * See: https://github.com/moonstripe/indra_db_mcp/issues/2
+   * See: https://github.com/MoonstripeCybernetics/indra_db_mcp/issues/2
    */
   private async exec<T = unknown>(args: string[], skipInit = false): Promise<T> {
     return new Promise<T>((resolve, reject) => {

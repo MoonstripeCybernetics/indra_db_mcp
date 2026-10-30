@@ -2,7 +2,7 @@
 
 > **Persistent memory for AI reasoning and decisions.**
 
-An MCP server that gives AI agents memory that persists across sessions. Built on [indra_db](https://github.com/moonstripe/indra_db) — a git-like database for versioned thoughts.
+An MCP server that gives AI agents memory that persists across sessions. Built on [indra_db](https://github.com/MoonstripeCybernetics/indra_db) — a git-like database for versioned thoughts.
 
 ## The Problem
 
@@ -197,6 +197,6 @@ MIT
 
 ## Related
 
-- [indra_db](https://github.com/moonstripe/indra_db) — The underlying Rust database
+- [indra_db](https://github.com/MoonstripeCybernetics/indra_db) — The underlying Rust database
 - [IndraDB](https://indradb.net) — Web platform for visualization
 - [MCP Specification](https://modelcontextprotocol.io/) — Model Context Protocol docs
